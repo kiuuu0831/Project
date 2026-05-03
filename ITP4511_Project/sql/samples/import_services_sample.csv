@@ -1,0 +1,2 @@
+clinicId,name,description,durationMinutes,isActive
+1,CSV Imported Service,Batch created,20,true

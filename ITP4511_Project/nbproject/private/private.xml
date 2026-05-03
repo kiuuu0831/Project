@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/sh9wn/Downloads/ITP4511_Project/ITP4511_Project/src/java/com/cchc/patient/controller/PatientQueueServlet.java</file>
+            <file>file:/C:/Users/sh9wn/Downloads/ITP4511_Project/ITP4511_Project/src/java/com/cchc/controller/NotificationServlet.java</file>
+            <file>file:/C:/Users/sh9wn/Downloads/ITP4511_Project/ITP4511_Project/src/java/com/cchc/dao/NotificationDAO.java</file>
+            <file>file:/C:/Users/sh9wn/Downloads/ITP4511_Project/ITP4511_Project/src/java/com/cchc/tag/StatusTag.java</file>
+            <file>file:/C:/Users/sh9wn/Downloads/ITP4511_Project/ITP4511_Project/src/java/com/cchc/model/Appointment.java</file>
+            <file>file:/C:/Users/sh9wn/Downloads/ITP4511_Project/ITP4511_Project/src/java/com/cchc/model/IncidentReport.java</file>
+            <file>file:/C:/Users/sh9wn/Downloads/ITP4511_Project/ITP4511_Project/web/incidentReportsList.jsp</file>
+            <file>file:/C:/Users/sh9wn/Downloads/ITP4511_Project/ITP4511_Project/src/java/com/cchc/model/Notification.java</file>
+            <file>file:/C:/Users/sh9wn/Downloads/ITP4511_Project/ITP4511_Project/src/java/com/cchc/controller/LoginServlet.java</file>
+            <file>file:/C:/Users/sh9wn/Downloads/ITP4511_Project/ITP4511_Project/web/WEB-INF/tlds/cchc.tld</file>
+            <file>file:/C:/Users/sh9wn/Downloads/ITP4511_Project/ITP4511_Project/src/java/com/cchc/util/AppointmentStatusUtil.java</file>
+            <file>file:/C:/Users/sh9wn/Downloads/ITP4511_Project/ITP4511_Project/src/java/com/cchc/controller/StaffDashboardServlet.java</file>
+            <file>file:/C:/Users/sh9wn/Downloads/ITP4511_Project/ITP4511_Project/src/java/com/cchc/util/QueueStatusUtil.java</file>
+            <file>file:/C:/Users/sh9wn/Downloads/ITP4511_Project/ITP4511_Project/src/java/com/cchc/patient/dao/PatientBookingDAO.java</file>
+            <file>file:/C:/Users/sh9wn/Downloads/ITP4511_Project/ITP4511_Project/src/java/com/cchc/util/DBConnection.java</file>
+            <file>file:/C:/Users/sh9wn/Downloads/ITP4511_Project/ITP4511_Project/web/staffDashboard.jsp</file>
+            <file>file:/C:/Users/sh9wn/Downloads/ITP4511_Project/ITP4511_Project/src/java/com/cchc/patient/dao/PatientQueueDAO.java</file>
+            <file>file:/C:/Users/sh9wn/Downloads/ITP4511_Project/ITP4511_Project/src/java/com/cchc/dao/IncidentDAO.java</file>
+            <file>file:/C:/Users/sh9wn/Downloads/ITP4511_Project/ITP4511_Project/web/patient/dashboard.jsp</file>
+            <file>file:/C:/Users/sh9wn/Downloads/ITP4511_Project/ITP4511_Project/web/notifications.jsp</file>
+            <file>file:/C:/Users/sh9wn/Downloads/ITP4511_Project/ITP4511_Project/web/patient/appointments.jsp</file>
+            <file>file:/C:/Users/sh9wn/Downloads/ITP4511_Project/ITP4511_Project/src/java/com/cchc/controller/IncidentListServlet.java</file>
+            <file>file:/C:/Users/sh9wn/Downloads/ITP4511_Project/ITP4511_Project/src/java/com/cchc/dao/AppointmentDAO.java</file>
+        </group>
+    </open-files>
+</project-private>

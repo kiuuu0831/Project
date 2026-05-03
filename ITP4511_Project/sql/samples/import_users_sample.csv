@@ -1,0 +1,3 @@
+username,password,fullName,email,phone,role,clinicId,isActive
+csv_staff_1,pass123,CSV Staff One,,,STAFF,1,true
+csv_patient_1,pass123,CSV Patient One,,,PATIENT,,true

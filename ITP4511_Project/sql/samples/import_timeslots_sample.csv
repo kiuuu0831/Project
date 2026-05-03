@@ -1,0 +1,2 @@
+clinicId,serviceId,slotDate,startTime,endTime,maxCapacity,currentBooked,isActive
+1,1,2030-01-15,09:00:00,09:30:00,10,0,true

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0">
+
+    <display-name>ITP4511_Project</display-name>
+
+    <welcome-file-list>
+        <welcome-file>login.jsp</welcome-file>
+    </welcome-file-list>
+
+    <filter>
+        <filter-name>AdminAuthorizationFilter</filter-name>
+        <filter-class>com.cchc.filter.AdminAuthorizationFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>AdminAuthorizationFilter</filter-name>
+        <url-pattern>/adminHome.jsp</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>AdminAuthorizationFilter</filter-name>
+        <url-pattern>/admin/*</url-pattern>
+    </filter-mapping>
+
+    <filter>
+        <filter-name>PatientAuthorizationFilter</filter-name>
+        <filter-class>com.cchc.filter.PatientAuthorizationFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>PatientAuthorizationFilter</filter-name>
+        <url-pattern>/patient/*</url-pattern>
+    </filter-mapping>
+
+    <servlet>
+        <servlet-name>AdminLoginServlet</servlet-name>
+        <servlet-class>com.cchc.admin.controller.AdminLoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminLoginServlet</servlet-name>
+        <url-pattern>/admin/AdminLoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminDashboardServlet</servlet-name>
+        <servlet-class>com.cchc.admin.controller.AdminDashboardServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminDashboardServlet</servlet-name>
+        <url-pattern>/admin/AdminDashboardServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminUserServlet</servlet-name>
+        <servlet-class>com.cchc.admin.controller.AdminUserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminUserServlet</servlet-name>
+        <url-pattern>/admin/AdminUserServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminClinicServlet</servlet-name>
+        <servlet-class>com.cchc.admin.controller.AdminClinicServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminClinicServlet</servlet-name>
+        <url-pattern>/admin/AdminClinicServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminServiceServlet</servlet-name>
+        <servlet-class>com.cchc.admin.controller.AdminServiceServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminServiceServlet</servlet-name>
+        <url-pattern>/admin/AdminServiceServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminTimeslotServlet</servlet-name>
+        <servlet-class>com.cchc.admin.controller.AdminTimeslotServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminTimeslotServlet</servlet-name>
+        <url-pattern>/admin/AdminTimeslotServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminPolicyServlet</servlet-name>
+        <servlet-class>com.cchc.admin.controller.AdminPolicyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminPolicyServlet</servlet-name>
+        <url-pattern>/admin/AdminPolicyServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminReportServlet</servlet-name>
+        <servlet-class>com.cchc.admin.controller.AdminReportServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminReportServlet</servlet-name>
+        <url-pattern>/admin/AdminReportServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminAuditServlet</servlet-name>
+        <servlet-class>com.cchc.admin.controller.AdminAuditServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminAuditServlet</servlet-name>
+        <url-pattern>/admin/AdminAuditServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminCsvImportServlet</servlet-name>
+        <servlet-class>com.cchc.admin.controller.AdminCsvImportServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminCsvImportServlet</servlet-name>
+        <url-pattern>/admin/AdminCsvImportServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
